@@ -1,6 +1,6 @@
-let num1 = 10
-let num2 = 30
-let num3 = 20
+let num1 = parseInt(prompt("Enter a first number: "))
+let num2 = parseInt(prompt("Enter a second number: "))
+let num3 = parseInt(prompt("Enter a third number: "))
 
 if(num1>num2 && num1>num3){
     console.log(num1, " is greatest")
