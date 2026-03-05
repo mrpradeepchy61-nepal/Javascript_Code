@@ -1,0 +1,7 @@
+let num = parseInt(prompt("Enter a number: "));
+let fact = 1,i=1;
+while(i<=num){
+    fact *= i
+    i++;
+}
+console.log("Factorial is ", fact);
