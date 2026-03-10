@@ -1,4 +1,4 @@
-//  Access all keys of an object
+
 
 const employee = {
     fullName : "Rahul Kumar",
@@ -7,12 +7,12 @@ const employee = {
     salary : 1000000
 }
 
+// Access only keys
 console.log(Object.keys(employee));
 
 // Access value 
-
 console.log(Object.values(employee));
 
 // Access both keys and values 
-
 console.log(Object.entries(employee))
+
