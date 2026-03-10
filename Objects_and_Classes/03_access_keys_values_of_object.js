@@ -16,3 +16,7 @@ console.log(Object.values(employee));
 // Access both keys and values 
 console.log(Object.entries(employee))
 
+// Assign properties of pre-existing object to new onjects
+let result = Object.assign({}, employee);
+console.log(result);
+
